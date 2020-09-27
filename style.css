@@ -235,7 +235,7 @@ a:hover {
 
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
-.l-bloc ,
+.l-bloc,
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-sm,
 .l-bloc a:hover .icon-md,
@@ -698,6 +698,7 @@ p {
 .h1 {
     font-size: 32px;
     font-family: "Open Sans";
+    color: #333333;
 }
 
 .cta-hero {
@@ -731,10 +732,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
 }
 
 h4 {
@@ -784,7 +781,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .btn-atomic-tangerine {
@@ -1132,4 +1129,35 @@ h4 {
 
 .project{
     font-size: 26px;
+}
+
+label{
+    width: 100%;
+    font-size: 18px;
+}
+
+.col-sm-6{
+    padding: 0 30px;
+}
+
+.contact-a{
+    font-size: 18px;
+}
+
+.contact-a:hover, .contact-a:focus{
+    color: #2e006c;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.coordonnees, .send-message{
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact-title{
+    color: #ffffff;
+}
+
+.contact-text{
+    color: #ffffff;
 }
