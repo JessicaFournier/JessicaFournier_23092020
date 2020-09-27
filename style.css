@@ -235,7 +235,7 @@ a:hover {
 
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
+.l-bloc ,
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-sm,
 .l-bloc a:hover .icon-md,
@@ -336,11 +336,12 @@ a:hover {
     background: transparent;
     text-decoration: underline;
     font-weight: bold;
+    color: #2e006c;
 }
 
 .nav > li a:focus {
     background: transparent;
-    color: #d62d4d;
+    color: #2e006c;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -485,7 +486,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
-    color: #575767;
+    color: black;
 }
 
 .icon-lg {
@@ -746,7 +747,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     font-size: 20px;
 }
 
@@ -792,13 +793,13 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #C9484C!important;
-    color: #000000!important;
+    background: #2e006c!important;
+    color:white!important;
 }
 
 .btn-atomic-tangerine:focus {
-    background: #C9484C!important;
-    color: #000000!important;
+    background: #2e006c!important;
+    color: #ffffff!important;
 }
 
 .ltc-white {
@@ -1065,8 +1066,9 @@ h4 {
 
 .partner-title{
     font-size: 20px;
-    color: #FFFFFF!important;
+    color: black!important;
     text-align: center;
+    font-weight: bold;
 }
 
 .partner{
@@ -1081,18 +1083,20 @@ h4 {
 .partner-a{
     padding: 0 20px;
     margin-bottom: 20px;
-    color: #575767;
+    color: black;
 }
 
 .design{
     font-size: 16px;
     margin: 20px auto 0 auto;
+    color: black;
 }
 
 .meeting{
     font-size: 20px;
-    color: #FFFFFF!important;
+    color: black!important;
     text-align: center;
+    font-weight: bold;
 }
 
 .realisation-img {
@@ -1101,7 +1105,7 @@ h4 {
 }
 
 .realisation-img:focus{
-    border: solid 4px #D62D4D;
+    border: solid 4px #2e006c;
     border-radius: 5px;
 }
 
@@ -1112,16 +1116,18 @@ h4 {
 .partner-a:focus{
     text-decoration: underline;
     font-weight: bold;
-    color: #D62D4D;
+    color:#2e006c;
 }
 
 .partner-a:hover{
     text-decoration: underline;
     font-weight: bold;
+    color: white;
 }
 
-.social:focus .icon-md:focus{
-    color: #D62D4D;
+.social:focus .icon-md{
+    color: #2e006c;
+    border-bottom: solid 2px #2e006c;
 }
 
 .project{
