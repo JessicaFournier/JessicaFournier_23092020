@@ -4306,7 +4306,7 @@ tbody.collapse.in {
     position: absolute;
     top: 100%;
     left: 0;
-    z-index: 1000;
+    z-index:0;
     display: none;
     float: left;
     min-width: 160px;
@@ -4411,7 +4411,7 @@ tbody.collapse.in {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 990
+    z-index: 0;
 }
 
 .pull-right>.dropdown-menu {
@@ -5152,7 +5152,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-static-top {
-    z-index: 1000;
+    z-index:0;
     border-width: 0 0 1px
 }
 
@@ -5167,7 +5167,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     position: fixed;
     right: 0;
     left: 0;
-    z-index: 1030
+    z-index: 0;
 }
 
 @media (min-width:768px) {
@@ -7076,7 +7076,7 @@ button.close {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 1050;
+    z-index: 0;
     display: none;
     overflow: hidden;
     -webkit-overflow-scrolling: touch;
@@ -7130,13 +7130,13 @@ button.close {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 1040;
+    z-index: 0;
     background-color: #000
 }
 
 .modal-backdrop.fade {
     filter: alpha(opacity=0);
-    opacity: 0
+    opacity: 1
 }
 
 .modal-backdrop.in {
@@ -7213,7 +7213,7 @@ button.close {
 
 .tooltip {
     position: absolute;
-    z-index: 1070;
+    z-index: 0;
     display: block;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
@@ -7231,7 +7231,6 @@ button.close {
     word-wrap: normal;
     white-space: normal;
     filter: alpha(opacity=0);
-    opacity: 0;
     line-break: auto
 }
 
@@ -7345,7 +7344,7 @@ button.close {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1060;
+    z-index: 0;
     display: none;
     max-width: 276px;
     padding: 1px;
@@ -7670,7 +7669,7 @@ button.close {
     position: absolute;
     bottom: 10px;
     left: 50%;
-    z-index: 15;
+    z-index: 0;
     width: 60%;
     padding-left: 0;
     margin-left: -30%;
@@ -7683,7 +7682,7 @@ button.close {
     width: 10px;
     height: 10px;
     margin: 1px;
-    text-indent: -999px;
+    text-indent: 0px;
     cursor: pointer;
     background-color: #000\9;
     background-color: rgba(0, 0, 0, 0);
@@ -7703,7 +7702,7 @@ button.close {
     right: 15%;
     bottom: 20px;
     left: 15%;
-    z-index: 10;
+    z-index: 0;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
