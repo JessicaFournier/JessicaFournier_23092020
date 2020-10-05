@@ -1133,7 +1133,7 @@ h4 {
 .partner-a:hover{
     text-decoration: underline;
     font-weight: bold;
-    color: white;
+    color: #2e006c;
 }
 
 .social:focus .icon-md{
